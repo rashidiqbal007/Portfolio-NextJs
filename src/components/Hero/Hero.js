@@ -1,22 +1,26 @@
+// import resume from "../../../public/resume.pdf";
+// import {Document, Page, pdfjs} from 'react-pdf';
+// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 import React from 'react';
-
+// import resume from "../Resume/Resume"
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
-  <Section row nopadding>
+  <Section  nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome To <br />
-        My Personal Portfolio
+        Hi!
+        <br />
+        I'm Rashid!
       </SectionTitle>
       <SectionText>
-        I am a software engineer with a passion for building web applications.
-        I am currently working as a software engineer at <a href="https://www.3dlook.com/">3DLOOK </a>
-        where I am building a web application that allows users to create 3D models of themselves.
+        A MERN Stack developer with a passion for building 
+         intuitive web applications with excellent user experiences👨‍💻
       </SectionText>
-      <Button onClick={() => window.location = 'https://www.google.com/'}>Learn More</Button>
+      <Button onClick={() => window.location = '/resume' }>Resume</Button>
+      {/* <Document file = "../" onLoadError={console.error} style={{width: '100%', height: 'auto'}}/> */}
     </LeftSection>
   </Section>
 );
