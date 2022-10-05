@@ -19,7 +19,11 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            React.js <br />
+            Bootstrap/ Material UI/ AntDesign <br />
+            Redux <br />
+            HTML <br />
+            Tailwind CSS <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -39,7 +43,7 @@ const Technologies = () => (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Figma and Adobe XD
+            Adobe XD, Photoshop, Illustrator, Lightroom <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -17,15 +17,54 @@ export const projects = [
     visit: 'https://google.com',
     id: 1,
   },
+  // my started
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
+    title: 'Vision-X Doctor',
+    description: "Doctor Appointment booking system alongwith Admin/Patient Panels using React, Redux, Node.js, Express & MongoDB.",
+      image: '/images/doctor.jpeg',
+      tags: ['Mongo', 'Express', 'React', 'Node', 'Redux'],
+    source: 'https://github.com/rashidiqbal007',
     visit: 'https://google.com',
     id: 2,
   },
+  {
+    title: 'Admin Dashboard',
+    description: "Provides administrators direct access to important Encompass tools for faster and more convenient community management.",
+      image: '/images/admin.jpeg',
+      tags: ['Mongo', 'Express', 'React', 'Node', 'Redux'],
+    source: 'https://github.com/rashidiqbal007',
+    visit: 'https://google.com',
+    id: 2,
+  },
+  {
+    title: 'Tin-Dog',
+    description: "As the name signifies, an introductory website for a tinder clone app but for dogs. It is a simple website built using HTML, CSS and Bootstrap & JavaScript.",
+      image: '/images/dog.png',
+      tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
+    source: 'https://github.com/rashidiqbal007',
+    visit: 'https://google.com',
+    id: 2,
+  },
+  {
+    title: 'Football-App',
+    description: "An E-commerce platform for a football/sports wear. It is a project very close to my heart as this was one of my very first projects.",
+      image: '/images/football.png',
+      tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
+    source: 'https://github.com/rashidiqbal007',
+    visit: 'https://google.com',
+    id: 2,
+  },
+  {
+    title: 'Dice-Game',
+    description: "A dice game built while playing around with JavaScript.",
+      image: '/images/dice.jpeg',
+      tags: ['JavaScript'],
+    source: 'https://google.com/rashidiqbal007',
+    visit: 'https://google.com',
+    id: 3,
+  },
+  // my ended
+
   {
     title: 'Unichat',
     description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
@@ -33,7 +72,7 @@ export const projects = [
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://google.com',
     visit: 'https://google.com',
-    id: 3,
+    id: 4,
   },
   
 ];
