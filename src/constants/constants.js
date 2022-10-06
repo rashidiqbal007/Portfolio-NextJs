@@ -67,7 +67,7 @@ export const projects = [
 
   {
     title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    description: " Chat-app based on Socket.io. A popular JavaScript library that allows us to create real-time, bi-directional communication.",
     image: '/images/4.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://google.com',
@@ -78,9 +78,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2018, text: 'Started my journey', },
+  { year: 2019, text: 'Worked as a freelance developer', },
+  { year: 2020, text: 'Incorporated my IT Agency.', },
+  { year: 2021, text: 'Worked & Satisfied multiple clients across the Globe.', },
+  { year: 2022, text: 'Aiming to learn more from the Industry!', },
 ];

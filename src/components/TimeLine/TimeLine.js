@@ -44,10 +44,12 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionDivider />  
+      <SectionDivider /> 
+      <br /> 
       <SectionTitle>About Me</SectionTitle>
+      <br />
       <SectionText>
-        I am a software engineer based in the Bay Area. I have a passion for building things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
+        I am a software engineer based in the Pakistan. I have a passion for building things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
       </SectionText>
       { <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
