@@ -71,7 +71,16 @@ export const projects = [
     image: '/images/4.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://realtime-chat-application.netlify.app/',
+    id: 4,
+  },
+  {
+    title: 'Corona Tracker',
+    description: "Real-Time Covid-19 tracker for all countries.",
+    image: '/images/corona.png',
+    tags: ['React', 'Node', 'JavaScript'],
+    source: 'https://google.com',
+    visit: 'https://covid19statswebsite.netlify.app/',
     id: 4,
   },
   
