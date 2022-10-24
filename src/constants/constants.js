@@ -1,19 +1,19 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Golds Gym',
+    description: "Using React, Material UI, Rapid API GoldsGym is your web-based personal trainer teaching you 1300+ exercises that helps users to learn, watch similar exercises & follow tutorials about their relevant selected exercise.",
+      image: '/images/goldsgym.png',
+      tags: ['React', 'MaterialUI', 'Rapid Api'],
+    source: 'https://github.com/rashidiqbal007/Gym-Ecom-App',
+    visit: 'https://goldsgym007.netlify.app/',
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
-    source: 'https://google.com',
+    title: 'Chat Chops',
+    description:"Using React, Sockets, Chat Engine, Chat Chops is a web-based chat application that allows users to chat with their friends, family, and colleagues. Users can create their own chat rooms and invite their friends to join the chat room.",
+    image: '/images/chatapp.png',
+    tags: ['React', 'Sockets' ,'Chat Engine'],
+    source: 'https://github.com/rashidiqbal007/ChatChops',
     visit: 'https://google.com',
     id: 1,
   },
@@ -32,8 +32,8 @@ export const projects = [
     description: "Provides administrators direct access to important Encompass tools for faster and more convenient community management.",
       image: '/images/admin.jpeg',
       tags: ['Mongo', 'Express', 'React', 'Node', 'Redux'],
-    source: 'https://github.com/rashidiqbal007',
-    visit: 'https://google.com',
+    source: 'https://github.com/rashidiqbal007/Admin-Dashboard',
+    visit: 'https://rashidiqbal007.github.io/Admin-Dashboard/',
     id: 2,
   },
   {
@@ -55,23 +55,12 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Dice-Game',
-    description: "A dice game built while playing around with JavaScript.",
-      image: '/images/dice.jpeg',
-      tags: ['JavaScript'],
-    source: 'https://google.com/rashidiqbal007',
+    title: 'Gesture Detection',
+    description: "AI based project for Dumb and Mute people helping them translate their gestures into speech. ",
+    image: '/images/gesture.png',
+    tags: ['MediaPipe', 'Tensorflow', 'CV2', 'Python'],
+    source: 'https://github.com/rashidiqbal007/AI-Gesture-Detection',
     visit: 'https://google.com',
-    id: 3,
-  },
-  // my ended
-
-  {
-    title: 'Unichat',
-    description: " Chat-app based on Socket.io. A popular JavaScript library that allows us to create real-time, bi-directional communication.",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://realtime-chat-application.netlify.app/',
     id: 4,
   },
   {
@@ -83,6 +72,30 @@ export const projects = [
     visit: 'https://covid19statswebsite.netlify.app/',
     id: 4,
   },
+  
+  {
+    title: 'Dice-Game',
+    description: "A dice game built while playing around with JavaScript.",
+      image: '/images/dice.jpeg',
+      tags: ['JavaScript'],
+    source: 'https://google.com/rashidiqbal007',
+    visit: 'https://google.com',
+    id: 3,
+  },
+  
+  
+  // my ended
+
+  // {
+  //   title: 'Unichat',
+  //   description: " Chat-app based on Socket.io. A popular JavaScript library that allows us to create real-time, bi-directional communication.",
+  //   image: '/images/4.jpg',
+  //   tags: ['React', 'ChatEngine', 'Firebase'],
+  //   source: 'https://google.com',
+  //   visit: 'https://realtime-chat-application.netlify.app/',
+  //   id: 4,
+  // },
+ 
   
 ];
 
