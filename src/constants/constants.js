@@ -42,7 +42,7 @@ export const projects = [
       image: '/images/dog.png',
       tags: ['HTML', 'CSS', 'Bootstrap', 'JavaScript'],
     source: 'https://github.com/rashidiqbal007',
-    visit: 'https://google.com',
+    visit: 'https://rashidiqbal007.github.io/TIN-DOG-WEBSITE/',
     id: 2,
   },
   {
