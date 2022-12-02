@@ -9,6 +9,15 @@ export const projects = [
     id: 0,
   },
   {
+    title: 'Gaze Keyboard',
+    description: "Control the keyboard with your eyes. Uses Machine learning in JavaScript to detect eye movements and build gaze-controlled experiences! Uses Tensorflow.js's face landmark detection model.",
+    image: '/images/gazedetection.png',
+    tags: ['Gaze-Detection', 'Tensorflow',  'Machine Learning'],
+    source: 'https://github.com/rashidiqbal007/Gaze-Detection',
+    visit: 'https://visionxgazekeyboard.netlify.app/',
+    id: 4,
+  },
+  {
     title: 'Chat Chops',
     description:"Using React, Sockets, Chat Engine, Chat Chops is a web-based chat application that allows users to chat with their friends, family, and colleagues. Users can create their own chat rooms and invite their friends to join the chat room.",
     image: '/images/chatapp.png',
