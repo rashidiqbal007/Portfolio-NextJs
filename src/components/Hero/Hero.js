@@ -19,7 +19,7 @@ const Hero = (props) => (
         A MERN Stack developer with a passion for building 
          intuitive web applications with excellent user experiences👨‍💻
       </SectionText>
-      <Button onClick={() => window.location = 'https://drive.google.com/file/d/1_sBcVlV1tiHVEKvAX8bzabqNMRRzo1QD/view?usp=share_link' }>Resume</Button>
+      <Button target="_blank" onClick={() => window.location = 'https://drive.google.com/file/d/1_sBcVlV1tiHVEKvAX8bzabqNMRRzo1QD/view?usp=share_link'  }>Resume</Button>
       {/* <Document file = "../" onLoadError={console.error} style={{width: '100%', height: 'auto'}}/> */}
     </LeftSection>
   </Section>
